@@ -52,12 +52,12 @@ Install log2dir via npm
 ```bash
   log(msg, { options });
 ```
-  msg -> string,
+msg -> string,
 
-  options:
-    cwd -> string,
-    ext -> string,
-    prefix -> string,
-    color -> string
+options:
+- cwd -> string,
+- ext -> string,
+- prefix -> string,
+- color -> string
 
 info: "cwd" & "ext" work for every function while "prefix" & "color" only work for the "custom" function
