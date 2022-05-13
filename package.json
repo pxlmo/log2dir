@@ -1,0 +1,33 @@
+{
+  "name": "log2dir",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pxlmo/log2dir.git"
+  },
+  "keywords": [
+    "console",
+    "logging",
+    "log",
+    "log to file",
+    "console to file",
+    "terminal to file",
+    "timestamp"
+  ],
+  "author": "pxlmo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pxlmo/log2dir/issues"
+  },
+  "homepage": "https://github.com/pxlmo/log2dir#readme",
+  "dependencies": {
+    "fs-extra": "^10.1.0",
+    "moment": "^2.29.3",
+    "path": "^0.12.7"
+  }
+}
