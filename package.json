@@ -20,7 +20,7 @@
     "timestamp"
   ],
   "author": "pxlmo",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/pxlmo/log2dir/issues"
   },
@@ -29,5 +29,9 @@
     "fs-extra": "^10.1.0",
     "moment": "^2.29.3",
     "path": "^0.12.7"
+  },
+  "exports": {
+    "import": "./index.mjs",
+    "require": "./index.cjs"
   }
 }
