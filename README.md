@@ -58,6 +58,6 @@ options:
 - cwd -> string,
 - ext -> string,
 - prefix -> string,
-- color -> string
+- color -> string (gray, red, green, yellow, blue, pink, cyan, white)
 
 info: "cwd" & "ext" work for every function while "prefix" & "color" only work for the "custom" function
